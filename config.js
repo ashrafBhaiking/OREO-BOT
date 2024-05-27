@@ -13,7 +13,25 @@ global.mods = []
 global.prems = []
 
 global.author = ' ⏤͟͟͞➣⃟⃟🖤Asнraf~ ⃟⃟⃟⃟🦇'
-global.botname = `𓆩𝛫𝛨𝛥𝛮 𝑆𝛥𝛥𝐵𓆪 <<<3     
+global.botname = '❖ꪖ𝘴ꫝ𝘳ꪖᠻ࿐💥🐈‍⬛🖤'
+  
+//Extra Shortcuts
+global.smlink = 'https://www.instagram.com/a4_ashr4f._.1111'
+global.gclink = 'https://chat.whatsapp.com/HyW628zKbDk6UmSrx7XiQt'
+ 
+ //Api's
+global.APIs = {
+}
+global.APIKeys = { 
+}
+
+//Apikeys
+global.shizokeys = 'shizo'
+
+//Sticker Watermarks
+global.stkpack = '❖ꪖ𝘴ꫝ𝘳ꪖᠻ࿐💥🐈‍⬛🖤'
+global.stkowner = ' ⏤͟͟͞➣⃟⃟🖤Asнraf~ ⃟⃟⃟⃟🦇'
+global.packname = `𓆩𝛫𝛨𝛥𝛮 𝑆𝛥𝛥𝐵𓆪 <<<3     
     
  
  
@@ -63,23 +81,6 @@ global.botname = `𓆩𝛫𝛨𝛥𝛮 𝑆𝛥𝛥𝐵𓆪 <<<3
  
 𓆩𓂍𓆪`
 
-//Extra Shortcuts
-global.smlink = 'https://www.instagram.com/a4_ashr4f._.1111'
-global.gclink = 'https://chat.whatsapp.com/HyW628zKbDk6UmSrx7XiQt'
- 
- //Api's
-global.APIs = {
-}
-global.APIKeys = { 
-}
-
-//Apikeys
-global.shizokeys = 'shizo'
-
-//Sticker Watermarks
-global.stkpack = '❖ꪖ𝘴ꫝ𝘳ꪖᠻ࿐💥🐈‍⬛🖤'
-global.stkowner = ' ⏤͟͟͞➣⃟⃟🖤Asнraf~ ⃟⃟⃟⃟🦇'
-global.packname = '❖ꪖ𝘴ꫝ𝘳ꪖᠻ࿐💥🐈‍⬛🖤'
 
 //Watermark
 global.maker = 'Made with ❤️ by ❖ꪖ𝘴ꫝ𝘳ꪖᠻ࿐💥🐈‍⬛🖤'
