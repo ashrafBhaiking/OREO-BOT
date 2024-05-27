@@ -6,7 +6,8 @@ import fs from 'fs'
 
 //OwnerShip
 global.owner = [
-  ['917814963286', ' ⏤͟͟͞➣⃟⃟🖤Asнraf~ ⃟⃟⃟⃟🦇', true]
+  ['917814963286', ' ⏤͟͟͞➣⃟⃟🖤Asнraf~ ⃟⃟⃟⃟🦇', true],
+  ['919637987574']
 ]
 global.mods = []
 global.prems = []
