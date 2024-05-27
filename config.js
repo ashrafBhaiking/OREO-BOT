@@ -31,6 +31,7 @@ global.shizokeys = 'shizo'
 //Sticker Watermarks
 global.stkpack = '❖ꪖ𝘴ꫝ𝘳ꪖᠻ࿐💥🐈‍⬛🖤'
 global.stkowner = ' ⏤͟͟͞➣⃟⃟🖤Asнraf~ ⃟⃟⃟⃟🦇'
+global.packname = '❖ꪖ𝘴ꫝ𝘳ꪖᠻ࿐💥🐈‍⬛🖤'
 
 //Watermark
 global.maker = 'Made with ❤️ by ❖ꪖ𝘴ꫝ𝘳ꪖᠻ࿐💥🐈‍⬛🖤'
