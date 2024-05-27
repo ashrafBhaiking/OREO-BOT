@@ -10,7 +10,7 @@ let totalf = Object.values(global.plugins).filter(v => v.help && v.tags).length
 let tags = { 'main': 'Main' }
 const defaultMenu = {
   before: `╭─┉┉┉┉┈◈ *BOT INFO* ◈┈┉┉┉┉┉𓆩ꨄ︎𓆪
-    ⁝ 📛 *Name:* ${global.botname}
+    ⁝ 📛 *Name:* ${global.author}
     ⁝ 🧮 *Total:* ${totalf} + Features
     ⁝ 💠 *Version:* V1.4.3
     ⁝ 🤏 *Prefix:* Multi Prefix 
