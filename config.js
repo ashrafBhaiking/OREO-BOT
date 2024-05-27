@@ -13,7 +13,55 @@ global.mods = []
 global.prems = []
 
 global.author = ' ⏤͟͟͞➣⃟⃟🖤Asнraf~ ⃟⃟⃟⃟🦇'
-global.botname = '❖ꪖ𝘴ꫝ𝘳ꪖᠻ࿐💥🐈‍⬛🖤'
+global.botname = `𓆩𝛫𝛨𝛥𝛮 𝑆𝛥𝛥𝐵𓆪 <<<3     
+    
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+  
+ 
+ 
+  
+ 
+ 
+   
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+  
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+𓆩𓂍𓆪`
 
 //Extra Shortcuts
 global.smlink = 'https://www.instagram.com/a4_ashr4f._.1111'
