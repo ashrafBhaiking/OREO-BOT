@@ -15,8 +15,8 @@ global.author = ' ⏤͟͟͞➣⃟⃟🖤Asнraf~ ⃟⃟⃟⃟🦇'
 global.botname = '❖ꪖ𝘴ꫝ𝘳ꪖᠻ࿐💥🐈‍⬛🖤'
 
 //Extra Shortcuts
-global.smlink = process.env.SOCIAL_MEDIA_LINK || 'https://instagram.com/shizo_the_techie'
-global.gclink = process.env.GROUP_LINK || 'https://chat.whatsapp.com/JnBffMgpiCgBAra3GQC9rW'
+global.smlink = 'https://www.instagram.com/a4_ashr4f._.1111'
+global.gclink = 'https://chat.whatsapp.com/HyW628zKbDk6UmSrx7XiQt'
  
  //Api's
 global.APIs = {
