@@ -137,7 +137,8 @@ let sdevs = global.db.data.chats[m.chat].menud
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => './media/contact.png')
 
-conn.sendButton(m.chat, text.replace(), null, null, [['Script', `.sc`], ['Speed', `.ping`]], null, [['Follow Ashraf', `${global.smlink}`], ['Join Group', `${global.gclink}`]], m)
+conn.sendButton(m.chat, text.replace(), botname, pp, [['Script 🌹', '.script'], ['Bot Speed 🚀', '.ping']], null, [['Follow Owner 🫣', smlink], ['Join Group 🥰', gclink]], m)
+
 };
     
   } catch (e) {
