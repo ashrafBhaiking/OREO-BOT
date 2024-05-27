@@ -5,7 +5,7 @@ let handler = async (m, { conn, command, text, usedPrefix, participants }) => {
     let ments = [random]
     let message = `The Most *${command}* is @${random.split("@")[0]}  📝`
     //conn.sendMessage(m.chat, { text: message, mentions: [ments] }, { quoted: m })
-    conn.sendButton(m.chat, message, botname, null, [], null, [['Follow Owner 🌟💕', smlink]], m)
+    conn.sendButton(m.chat, message, author, null, [], null, [['Follow Owner 🌟💕', smlink]], m)
 
 }
 handler.help = ["perv", "handsome", "hot", "sexy", "ugly", "cute", "playboy", "playgirl", "beautiful", "lesbian", "whore", "motherfucker", "sucker", "horny", "foolish", "nibba", "nibbi", "bitch", "waifu", "crackhead", "rascal", "idiot", "girlyboy", "tomboy", "gigachad", "mf", "introvert", "extrovert", "sigma", "psycho", "brainless", "useless", "singer"]
