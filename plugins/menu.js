@@ -1,6 +1,5 @@
 import db from '../lib/database.js'
 import fs from 'fs'
-import { blueh } from '../../../FussionScreen/loadings.js'
 import { generateWAMessageFromContent } from '@whiskeysockets/baileys'
 const {
     proto,
@@ -138,42 +137,7 @@ let sdevs = global.db.data.chats[m.chat].menud
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => './media/contact.png')
 
-let msg = generateWAMessageFromContent(m.chat, {
-  viewOnceMessage: {
-    message: {
-        "messageContextInfo": {
-          "deviceListMetadata": {},
-          "deviceListMetadataVersion": 2
-        },
-        interactiveMessage: proto.Message.InteractiveMessage.create({
-          body: proto.Message.InteractiveMessage.Body.create({
-            text: text.replace()
-          }),
-          footer: proto.Message.InteractiveMessage.Footer.create({
-            text: `${global.stkowner}`
-          }),
-          header: proto.Message.InteractiveMessage.Header.create({
-            title: "",
-            subtitle: "",
-            hasMediaAttachment: false
-          }),
-          nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
-            buttons: [
-              {
-                "name": "quick_reply",
-                "buttonParamsJson": "{\"display_text\":\"Owner🪷\",\"id\":\"/owner\"}{\"display_text\":\"Script 🫣\",\"id\":\"/script\"}{\"display_text\":\"Bot Speed 🚀\",\"id\":\"/ping\"}"
-              }
-           ],
-          })
-        })
-    }
-  }
-}, {})
-
-await conn.relayMessage(msg.key.remoteJid, msg.message, {
-  messageId: msg.key.id
-})
-  
+conn.sendButton(m.chat, text.replace(), null, null, [['Script', `.sc`], ['Speed', `.ping`]], null, [['Follow Ashraf', `${global.smlink}`], ['Join Group', `${global.gclink}`]], m)
 };
     
   } catch (e) {
