@@ -573,8 +573,8 @@ export async function deleteUpdate(message) {
 ▢ *User:* @${participant.split`@`[0]} 
 └─────────────
 To disable this feature, type 
-*/off antidelete*
-*/enable delete*
+off antidelete*
+enable delete*
 `.trim(), msg, {
             mentions: [participant]
         })
