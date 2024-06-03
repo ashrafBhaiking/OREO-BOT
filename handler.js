@@ -568,7 +568,7 @@ export async function deleteUpdate(message) {
         let chat = global.db.data.chats[msg.chat] || {}
         if (chat.delete)
             return
-        await this.reply(msg.chat, `
+     /*   await this.reply(msg.chat, `
 ┌─⊷  𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀 
 ▢ *User:* @${participant.split`@`[0]} 
 └─────────────
@@ -578,7 +578,8 @@ To disable this feature, type
 `.trim(), msg, {
             mentions: [participant]
         })
-        this.copyNForward(msg.chat, msg).catch(e => console.log(e, msg))
+        */
+        //this.copyNForward(msg.chat, msg).catch(e => console.log(e, msg))
     } catch (e) {
         console.error(e)
     }
