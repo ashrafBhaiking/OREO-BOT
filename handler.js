@@ -542,7 +542,7 @@ export async function participantsUpdate({ id, participants, action }) {
  * @param {import('@whiskeysockets/baileys').BaileysEventMap<unknown>['groups.update']} groupsUpdate 
  */
 export async function groupsUpdate(groupsUpdate) {
-    if (opts['self'])
+    if (opts['server'])
         return
     for (const groupUpdate of groupsUpdate) {
         const id = groupUpdate.id
